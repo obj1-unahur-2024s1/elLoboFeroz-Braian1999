@@ -21,6 +21,12 @@ object loboFeroz{
 	method peso(){
 		return peso
 	}
+	method puedeSoplarCasa(tipoDeCasa){
+		return peso > tipoDeCasa
+	}
+	method soplarCasa(tipoDeCasa, habitantes){
+		if(loboFeroz.puedeSoplarCasa(tipoDeCasa)) peso = (peso - tipoDeCasa) - (comida.chanchito() * habitantes)
+	}
 }
 object caperucita{
 	var cantidadManzanas = 6
@@ -53,7 +59,7 @@ object cazador{
 		loboFeroz.sufrirCrisis()
 	}
 }
-object casas {
+object casa {
 	method casaDePaja(){
 		return 0
 	}
