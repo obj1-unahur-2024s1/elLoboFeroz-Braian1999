@@ -45,11 +45,22 @@ object comida{
 		return 70
 	}
 	method chanchito(){
-		return 30
+		return 10
 	}
 }
 object cazador{
 	method derrotarAlLoboFeroz(){
 		loboFeroz.sufrirCrisis()
+	}
+}
+object casas {
+	method casaDePaja(){
+		return 0
+	}
+	method casaDeMadera(){
+		return 5
+	}
+	method casaDeLadrillo(){
+		return 30
 	}
 }
