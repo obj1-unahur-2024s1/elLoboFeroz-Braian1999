@@ -24,11 +24,11 @@ object loboFeroz{
 }
 object caperucita{
 	var cantidadManzanas = 6
-	method disminuirManzanas(cantidad){
-		cantidadManzanas = cantidadManzanas - cantidad
+	method perderManzana(){
+		cantidadManzanas = cantidadManzanas - 1
 	}
-	method peso(){
-		return peso
+	method cantidadManzanas(){
+		return cantidadManzanas
 	}
 }
 object comida{
@@ -36,7 +36,7 @@ object comida{
 		return 0.2
 	}
 	method abuelita(){
-		return 50
+		return 60
 	}
 	method caperusita(){
 		return 50
