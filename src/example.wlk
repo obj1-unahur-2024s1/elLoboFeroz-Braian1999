@@ -3,10 +3,13 @@ object loboFeroz {
 	method estaSaludable(){
 		return peso >= 20 and peso <= 150
 	}
-	method aumetarPeso(cantidad){
+	method aumentarPeso(cantidad){
 		peso = peso + cantidad
 	}
 	method disminuirPeso(cantidad){
 		peso = peso - cantidad
+	}
+	method sufrirCrisis(){
+		peso = 10
 	}
 }
