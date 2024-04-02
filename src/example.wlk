@@ -44,10 +44,12 @@ object comida{
 	method cazador(){
 		return 70
 	}
+	method chanchito(){
+		return 30
+	}
 }
 object cazador{
 	method derrotarAlLoboFeroz(){
 		loboFeroz.sufrirCrisis()
 	}
 }
-
