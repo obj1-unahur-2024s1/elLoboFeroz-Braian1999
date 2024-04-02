@@ -33,3 +33,11 @@ object caperucita{
 	}
 }
 
+object abuelita{
+	var peso = 50
+	method peso(){
+		return peso
+	}
+}
+
+
