@@ -12,8 +12,8 @@ object loboFeroz{
 	method sufrirCrisis(){
 		peso = 10
 	}
-	method comer(comida){
-		peso = peso + comida / 10
+	method comer(comida, cantidad){
+		peso = peso + comida * cantidad / 10
 	}
 	method correr(){
 		loboFeroz.disminuirPeso(1)
