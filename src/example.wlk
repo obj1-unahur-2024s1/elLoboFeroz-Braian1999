@@ -12,4 +12,7 @@ object loboFeroz {
 	method sufrirCrisis(){
 		peso = 10
 	}
+	method comer(comida){
+		peso = peso + comida / 10
+	}
 }
