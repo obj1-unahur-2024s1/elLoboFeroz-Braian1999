@@ -28,5 +28,8 @@ object caperucita{
 	method disminuirManzanas(cantidad){
 		cantidadManzanas = cantidadManzanas - cantidad
 	}
+	method peso(){
+		return peso
+	}
 }
 
