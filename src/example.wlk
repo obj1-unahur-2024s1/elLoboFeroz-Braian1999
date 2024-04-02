@@ -38,8 +38,16 @@ object comida{
 	method abuelita(){
 		return 60
 	}
-	method caperusita(){
+	method caperucita(){
 		return 50
+	}
+	method cazador(){
+		return 70
+	}
+}
+object cazador{
+	method derrotarAlLoboFeroz(){
+		loboFeroz.sufrirCrisis()
 	}
 }
 
