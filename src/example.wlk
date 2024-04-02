@@ -32,7 +32,12 @@ object caperucita{
 		return peso
 	}
 }
-
+object manzana{
+	var peso = 0.2
+	method peso(){
+		return peso
+	}
+}
 object abuelita{
 	var peso = 50
 	method peso(){
